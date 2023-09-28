@@ -1,4 +1,6 @@
-class MyClass
+require_relative 'my_enumerable'
+
+class MyList
 include MyEnumerable
   def initialize(*list)
     @list = list
@@ -10,16 +12,16 @@ include MyEnumerable
 end
 
 # Create our list
-list = MyList.new(1, 2, 3, 4)
+puts list = MyList.new(1, 2, 3, 4)
 #<MyList: @list=[1, 2, 3, 4]>
 
 # Test #all?
-list.all? {|e| e < 5}
-list.all? {|e| e > 5}
+puts list.all? {|e| e < 5}
+puts list.all? {|e| e > 5}
 
 # Test #any?
-list.any? {|e| e == 2}
-list.any? {|e| e == 5}
+puts list.any? {|e| e == 2}
+puts list.any? {|e| e == 5}
 
 # Test #filter
-list.filter {|e| e.even?}
+print list.filter {|e| e.even?}
