@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="https://rysthcraft.netlify.app/img/LOGO-ONLY.svg" alt="logo" width="140"  height="auto" />
-  <br/>
-  <h3><b>John Palacios - RysthCraft</b></h3>
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -26,9 +20,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 RUBY Decode Morse <a name="about-project"></a>
+# 📖 RUBY Enumerable <a name="about-project"></a>
 
-**RUBY Decode Morse** ...
+**RUBY Enumerable** is a ruby application where we created two ruby files, one of them it's a module and the other it's a class. Within our module file we have different methods to access the data from our class. Built with Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,7 +37,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Feature 1**
+- **Check if each number to classify them into an especific category (even, less than, etc.)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,13 +49,16 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- Install Ruby on a Virtual Machine or using (WSL or the installer from their website).
+- Follow this [article](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md).
+
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/Rysth/RUBY-Decode-Morse.git
-cd RUBY-Decode-Morse
+git clone https://github.com/Rysth/RUBY-Enumerable.git
+cd RUBY-Enumerable
 code . (To open VS Code Editor)
 ```
 
@@ -71,6 +68,8 @@ Then, you will change everything you want!
 
 Install this project with:
 
+- `bundle install` command.
+
 ### Usage
 
 To run the project, execute the following steps:
@@ -78,6 +77,12 @@ To run the project, execute the following steps:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
+
+👤 **Soban Syeed**
+
+- GitHub: [@SnakyMz](https://github.com/SnakyMz)
+- Twitter: [@SobanSyeed](https://twitter.com/SobanSyeed)
+- LinkedIn: [Soban Syeed](https://www.linkedin.com/in/soban-syeed-82985b241/)
 
 👤 **John Palacios**
 
@@ -88,7 +93,7 @@ To run the project, execute the following steps:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **⏲️**
+- [ ] **Complement this by using a front-end framework.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
